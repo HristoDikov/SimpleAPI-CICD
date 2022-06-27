@@ -10,6 +10,6 @@ public class TestController : ControllerBase
     [HttpGet(Name = "Get")]
     public string Get()
     {
-        return "Not master name";
+        return "Hristo Dikov";
     }
 }
