@@ -12,4 +12,10 @@ public class TestController : ControllerBase
     {
         return "Hristo Dikov";
     }
+
+    [HttpGet("{id}")]
+    public int Get(int id)
+    {
+        return id + 7;
+    }
 }
